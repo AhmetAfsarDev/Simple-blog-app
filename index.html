@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="PT" >Ana Sayfa / Mysphere</title>
+    <link rel="stylesheet" href="./CSS/App.css">
+</head>
+<body class="skeleton">
+    <div class="Sign-up-container">
+        <div class="Sing-in-wrapper">
+            <div class="Sign-in-media-wrapper">
+                <img src="Img/Applicationlogo.png">
+            </div>
+            <div class="Sign-in-input-wrapper">
+                <h2>Giriş yap</h2>
+                <input type="mail" class="Username-or-Mail-input" placeholder="Kullanıcı adınızı ya da mail adresinizi giriniz...">
+                <input type="Password" class="Password-input" placeholder="Sifrenizi giriniz">
+                <button class="Sing-in-button">Giriş yap</button>
+                <div class="Sign-up-note-wrapper">
+                    <p> Hesabın yok mu <button class="N-Sign-up-btn">Kayıt</button> ol.</p>
+                </div>
+            </div>
+            <div class="sign-up-input-wrapper">
+                <h2>Kayıt ol</h2>
+                <input class="Sign-up-mail-input" required="attribute" type="email" placeholder="E-mail adresinizi giriniz">
+                <input class="Sign-up-username-input" type="text" placeholder="Kullanıcı adınızı giriniz">
+                <input class="Sign-up-password-input" type="Password" placeholder="Sifrenizi giriniz">
+                <button class="Sign-up-button">Kayıt ol</button>
+                <div class="Sign-in-note-wrapper">
+                    <p> Kullanıcı hesabın var mı? <button class="N-Sign-in-btn">Giriş</button> yap.</p>
+                </div>
+                <span class="sign-up-v">Hesabınız oluşturuldu giriş bilgilerinizle giriş yapabilirsiniz</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="App">
+        <header class="main-header">
+            <section class="header-logo-section">
+                <a href="" class="logo-link">
+                    <img class="logo-img" src="./Img/Applicationlogo.png" alt="Logo">
+                </a>        
+            </section>
+            <div class="header-main-content">
+                <div class="search-container">
+                    <input class="search-input" type="text" placeholder="Ara">
+                </div>
+            </div>
+           
+        </header>
+
+        <section class="main-layout">
+            <div class="sidebar-nav">
+                <ul>
+                    <li><a class="sidebar-link" id="nav-home" href="#"><i class="fa-solid fa-house fa-xl" style="padding:0.5rem; color:black; border-radius:100%; margin-right:0.5rem;"></i>Ana Sayfa</a></li>
+                    <li><a class="sidebar-link" id="nav-blog" href="#"><i class="fa-solid fa-blog fa-xl" style="padding:0.5rem; border-radius:100%; margin-right:0.5rem;"></i>Sphere</a></li>
+                    <li><a class="sidebar-link" id="nav-mail" href="#"><i class="fa-solid fa-envelope fa-xl" style="padding:0.5rem; border-radius:100%; margin-right:0.5rem;"></i>Mail</a></li>
+                    <li><a class="sidebar-link" id="nav-info" href="#"><i class="fa-solid fa-circle-info fa-xl" style="padding:0.5rem; border-radius:100%; margin-right:0.5rem;"></i>Hakkımızda</a></li>
+                    <li><a class="sidebar-link" id="nav-copyright" href="#"><i class="fa-solid fa-copyright fa-xl" style="padding:0.5rem; border-radius:100%; margin-right:0.5rem;"></i>Telif hakları</a></li>
+                    <li><a class="sidebar-link" id="nav-profile" href="#"><img class="Profil-picture" src="./Img/Anonimprofilpicture.png"><span class="nav-profil-name">Profil</span></a></li>
+                    
+                </ul>
+            </div>
+
+            <section class="content-container">
+                <section class="page-blog">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="profile-picture-wrapper">
+                                <img src="./Img/Anonimprofilpicture.png" alt="Img">
+                            </div>
+                            <span class="card-username">Username</span>
+                            <div class="card-reactions">
+                                <button class="btn-like"><i class="fa-solid fa-heart" style="color:red;"></i></button>
+                                <button class="btn-dislike"><i class="fa-solid fa-heart-circle-minus" style="color: rgb(231, 217, 157);"></i></button>
+                                <button class="btn-report"><i class="fa-solid fa-circle-info" style="color: rgb(116, 192, 252);"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-post-content">
+                            <div class="card-media">
+                                <img src="./Img/Applicationlogo.png" alt="Post Img">
+                            </div>
+                        </div>
+                        <div class="card-post-info">
+                            <h3 class="card-title">Yeni logo duyurusu</h3>
+                            <p class="card-description">
+                                Merhaba arkadaşlar bu uygulamamızın logosu 
+                            </p>
+                        </div>
+                    </div>
+                </section>
+           
+                <section class="page-home">
+                    <div class="card">
+                        <div class="Home-card-header">
+                            <div class="profile-picture-wrapper">
+                                <img src="./Img/Anonimprofilpicture.png" alt="Avatar">
+                            </div>
+                            <span class="H-card-username">Username</span>
+                        </div>
+                        <div class="card-post-content">
+                            <div class="card-media">
+                                <img src="./Img/Applicationlogo.png" alt="Post Img">
+                            </div>
+                        </div>
+                        <div class="card-post-info">
+                            <h3 class="card-title">Hoş geldiniz...</h3>
+                            <p class="card-description">
+                                Mysphere benim sosyal blog platformum burada bana ait içerikleri paylaşıyorum...
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="page-mail">
+                    <div id="Page-mail-card" class="card">
+                        <div class="card-header">
+                            <span class="M-card-username">Username</span>
+                            <button class="Sending-mails">Gonderilen mailler</button>
+                        </div>
+                        <div id="M-card-content" class="card-post-content">
+                            <div class="mail-form-container">
+                                <div class="mail-form">
+                                    <input class="User-mail-name-print" type="text" placeholder="Adınızı giriniz">
+                                    <input class="cab" type="text" placeholder="Mail konusu nedir?">
+                                    <textarea class="Mail-content" placeholder="İçerik giriniz..."></textarea>
+                                    <button class="sender-mail" type="button">Gonder</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-post-info">
+                            <h3 class="card-title">Yukarıdan adınızı ve mail adresini girerek mail gönderebilirsiniz... </h3>
+                            <p class="card-description">
+                                Mail gönderilerine en geç 3 gün içinde geri dönüş yapılacaktır... 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="Maillistcontain">
+                        <div class="card-header">
+                            <button class="ML-Prw-btn">Mail sayfası</button>
+                        </div>
+                        <div class="Mail-list-container"></div>
+                    </div>
+                </section>
+
+                <section class="page-info">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="profile-picture-wrapper">
+                                <img src="./Img/Profilpicture.png" alt="Avatar">
+                            </div>
+                            <span class="card-username">Ahmet Afşar</span>
+                        </div>
+                        <div class="card-post-content">
+                            <div class="info-content-wrapper">
+                                <h2>Merhaba Mysphere'a hoş geldiniz</h2>
+                                <p> 
+                                 Mysphere bir sosyal blog platformudur burada paylaşım yapabilir veya arkadaşlarınızın paylaşımlarını takip edebilirsiniz. Bu platformu kişisel olarak ana geliştirici olarak ben (Ahmet Afsar) geliştiriyorum daha fazla bilgi ya da iletşim için mail gönderebilirsiniz  <button class="infombutton">Mail</button> sayfasından iletişim bilgilerinizi girip benimle iletişim kurabilirsiniz...
+                                 </p>
+                            </div>
+                        </div>
+                        <div class="card-post-info">
+                            <h3 class="card-title">Sosyal medya adresleri... </h3>
+                            <div class="social-links">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-github fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-square-instagram fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="page-copyright">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="profile-picture-wrapper">
+                                <img src="./Img/Profilpicture.png" alt="Avatar">
+                            </div>
+                            <span class="card-username">Ahmet Afşar</span>
+                        </div>
+                        <div class="card-post-content">
+                            <div class="copyright-content-wrapper">
+                                <h2>Telif hakları (Copyright)</h2>
+                                <p>© 2026 Mysphere. All rights reserved..</p>
+                                <p>© 2026 Mysphere Tüm telif hakları saklıdır...</p>
+                            </div>
+                        </div>
+                        <div class="card-post-info">
+                            <h3 class="card-title">Sosyal medya adresleri... </h3>
+                            <div class="social-links">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-github fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-square-instagram fa-2xl" style="color: rgb(239, 68, 68);"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="page-profile">
+                    <div class="card">
+                        <div class="card-post-content">
+                            <div class="profile-content-wrapper">
+                                <div class="profile-bio-wrapper">
+                                    <div class="profile-avatar-wrapper">
+                                        <img src="./Img/Anonimprofilpicture.png" alt="Avatar">
+                                    </div>
+                                    <div class="bio-container">
+                                        <span>Kullanıcı adı <p class="P-Usernameinfo">Username</p></span>
+                                    </div>
+                                </div>
+                                <div class="gallery-container"> 
+                                    <img class="gallery-photo" src="Img/Applicationlogo.png" alt="Görsel">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <div class="right-sidebar">
+                <div class="right-card" id="box1">
+                    <div class="right-card__content">
+                        <h2 class="right-card__title">Mysphere</h2> 
+                        <div class="right-card__body">
+                            <p>
+                                Mysphere benimle ilgili içeriklerimi paylaştığım ve benimle ilgili bilgilendirmeler iletişim ve iş birliği yapmak isteyen kişilerin beni takip edebileceği bir platform daha fazla bilgi için hakkımızda sayfasını ziyaret edebilirsiniz <button type="button">Hakkımızda</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="right-card secondary" id="box2">
+                    <div class="right-card__content">
+                        <h2 class="right-card__title">Sosyal medya adreslerim</h2> 
+                        <div class="right-card__body-list">
+                            <ul>
+                                <li><a href="">Instagram</a></li>
+                                <li><a href="">Linkedin</a></li>
+                                <li><a href="">Github</a></li>
+                                <li><a href="">X (Twitter)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   <!-- Burada fontawesome icon script yazılacak-->
+    <script type="text/javascript" src="./APP/App.js"></script>
+</body>
+</html>
